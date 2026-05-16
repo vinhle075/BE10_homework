@@ -35,6 +35,9 @@ double Mathematics = gradeScan.nextDouble();
 double English = gradeScan.nextDouble();
 double Literature = gradeScan.nextDouble();
 double avg = (Mathematics + English + Literature)/3;
+if((Mathematics < 5)||(English <5)||(Literature <5)) {
+	System.out.println("FAIL");
+	};
 // Output
 System.out.println("Math:" + Mathematics );
 System.out.println("English:" + English);
