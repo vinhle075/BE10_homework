@@ -90,7 +90,7 @@ public static int singleNumber(int[] nums) {
 			return nums[nums.length-1];
 		} 
 		 public static void main(String[] args) {
-		        int[] a = {1, 1, 2, 2, 3, 4, 4};
+		        int[] a = {3, 2, 4, 2, 3};
 	            int d = singleNumber(a);
 		        System.out.println(d);
 		    }
