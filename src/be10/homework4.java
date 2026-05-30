@@ -8,10 +8,10 @@ public class homework4 {
 //	    for (int a : A) {
 //	        counters[a]++;
 //	    }
-//////	  Duyệt từ PHẢI sang TRÁI
-//////      Giảm counter của A[i]
-//////      Nếu counter về 0 → đây là lần xuất hiện CUỐI CÙNG
-////        → return i
+//////	  Duyệt từ phải sang trái
+//////    Giảm counter của A[i]
+//////    Nếu counter về 0 → đây là lần xuất hiện cuối
+////      → return i
 //	    for (int i = size - 1; i >= 0; i--) {
 //	        if (--counters[A[i]] == 0)
 //	            return i;
